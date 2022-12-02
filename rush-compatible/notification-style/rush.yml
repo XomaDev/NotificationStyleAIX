@@ -1,0 +1,43 @@
+# For a detailed info on this file and supported fields, check out the below link:
+# https://github.com/ShreyashSaitwal/rush-cli/wiki/Metadata-File
+
+---
+name: NotificationStyle
+description: Extension component for NotificationStyle. Created using Rush.
+
+version:
+  number: auto
+  name: '1.7'
+
+authors:
+  - Jarlisson | Kumaraswamy (edit)
+
+build:
+  release:
+    # Optimizes the extension on every release build.
+    optimize: true
+
+  # If enabled, you will be able to use Java 8 language features in your extension.
+  desugar:
+    enable: false
+    desugar_deps: false
+
+assets:
+  # Extension icon. This can be a URL or a local image in 'assets' folder.
+  icon: icon.png
+  other:
+    - favorite_border.png
+    - favorite.png
+    - next.png
+    - pause.png
+    - play.png
+    - previous.png
+    - reply.png
+
+  # Extension assets.
+  # other:
+  #   - my_awesome_asset.anything
+
+# Extension dependencies (JAR).
+# deps:
+#   - my_awesome_library.jar

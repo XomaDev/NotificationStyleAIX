@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="dev-deps">
+    <CLASSES>
+      <root url="file:///home/kumaraswamy/rush/dev-deps" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///home/kumaraswamy/rush/dev-deps/rush/runtime-sources.jar!/" />
+      <root url="jar:///home/kumaraswamy/rush/dev-deps/rush/annotations-sources.jar!/" />
+      <root url="jar:///home/kumaraswamy/rush/dev-deps/kotlin/kotlin-stdlib-sources.jar!/" />
+    </SOURCES>
+    <jarDirectory url="file:///home/kumaraswamy/rush/dev-deps" recursive="true" />
+  </library>
+</component>

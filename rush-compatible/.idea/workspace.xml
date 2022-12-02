@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05964180-f02c-4d3e-9d26-e9dd5fbf8277" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NotificatioCompat.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NotificatioStyle_KODULAR.aia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NotificatioStyle_MIT.aia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.jdl.NotificationStyle.aix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/jdl/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/jdl/NotificationStyle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/jdl/aiwebres/notification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/jdl/assets/favorite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/jdl/assets/favorite_border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/jdl/assets/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/jdl/assets/pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/jdl/assets/play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/jdl/assets/previous.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/jdl/assets/reply.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2IN1lcxZGc8UdM2cgISUvZqCsLf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/home/kumaraswamy/Documents/NotificationStyleAIX/rush-compatible"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05964180-f02c-4d3e-9d26-e9dd5fbf8277" name="Changes" comment="" />
+      <created>1670007378739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670007378739</updated>
+    </task>
+    <servers />
+  </component>
+</project>
