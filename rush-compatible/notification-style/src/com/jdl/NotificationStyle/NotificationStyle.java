@@ -1,6 +1,6 @@
 package com.jdl.NotificationStyle;
 
-import static android.app.PendingIntent.FLAG_IMMUTABLE;
+import static android.app.PendingIntent.FLAG_MUTABLE;
 import static android.content.Context.NOTIFICATION_SERVICE;
 
 import java.io.File;
@@ -199,7 +199,7 @@ public class NotificationStyle extends AndroidNonvisibleComponent implements OnD
       buttonIntent.putExtra("notificationId", NOTIFY_ID);
       buttonIntent.putExtra("url", url);
       final PendingIntent btnAction = PendingIntent.getBroadcast(activity, 0, buttonIntent,
-              FLAG_IMMUTABLE);
+              FLAG_MUTABLE);
       builder.addAction(0, nameButton, btnAction);
       activity.registerReceiver(actionBroad, new IntentFilter(nameButton));
     }
@@ -242,15 +242,15 @@ public class NotificationStyle extends AndroidNonvisibleComponent implements OnD
     StartApp("Music");
 
     final PendingIntent FAVORITE = PendingIntent.getBroadcast(activity, 0, new Intent("MUSIC_FAVORITE"),
-            FLAG_IMMUTABLE);
+            FLAG_MUTABLE);
     final PendingIntent PAUSE = PendingIntent.getBroadcast(activity, 0, new Intent("MUSIC_PAUSE"),
-            FLAG_IMMUTABLE);
+            FLAG_MUTABLE);
     final PendingIntent PLAY = PendingIntent.getBroadcast(activity, 0, new Intent("MUSIC_PLAY"),
-            FLAG_IMMUTABLE);
+            FLAG_MUTABLE);
     final PendingIntent MUSIC_PREVIOUS = PendingIntent.getBroadcast(activity, 0, new Intent("MUSIC_PREVIOUS"),
-            FLAG_IMMUTABLE);
+            FLAG_MUTABLE);
     final PendingIntent MUSIC_NEXT = PendingIntent.getBroadcast(activity, 0, new Intent("MUSIC_NEXT"),
-            FLAG_IMMUTABLE);
+            FLAG_MUTABLE);
 
     builder.setStyle(new Notification.MediaStyle().setShowActionsInCompactView(1, 2, 3)
             .setMediaSession(mediaSession.getSessionToken()));
@@ -302,7 +302,7 @@ public class NotificationStyle extends AndroidNonvisibleComponent implements OnD
 
     replyIntent = new Intent("MESSAGE_REPLY");
     replyIntent.putExtra("group", group);
-    replyPendingIntent = PendingIntent.getBroadcast(context, 0, replyIntent, FLAG_IMMUTABLE);
+    replyPendingIntent = PendingIntent.getBroadcast(context, 0, replyIntent, FLAG_MUTABLE);
 
     final Bitmap bitmapReply = getBitmap("reply.png", true);
     final Notification.Action replyAction = new Notification.Action.Builder(Icon.createWithBitmap(bitmapReply),
@@ -349,14 +349,14 @@ public class NotificationStyle extends AndroidNonvisibleComponent implements OnD
       final Intent buttonIntent = new Intent("BUTTON1");
       buttonIntent.putExtra("nameButton", buttons[0]);
       final PendingIntent button1 = PendingIntent.getBroadcast(activity, 0, buttonIntent,
-              PendingIntent.FLAG_IMMUTABLE);
+              PendingIntent.FLAG_MUTABLE);
       builder.addAction(0, buttons[0], button1);
     }
     if (buttons.length > 1) {
       final Intent buttonIntent = new Intent("BUTTON2");
       buttonIntent.putExtra("nameButton", buttons[1]);
       final PendingIntent button2 = PendingIntent.getBroadcast(activity, 0, buttonIntent,
-              PendingIntent.FLAG_IMMUTABLE);
+              PendingIntent.FLAG_MUTABLE);
       builder.addAction(0, buttons[1], button2);
     }
     builder.setContentTitle(title);
@@ -410,7 +410,7 @@ public class NotificationStyle extends AndroidNonvisibleComponent implements OnD
     myIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
     myIntent.putExtra("APP_INVENTOR_START", startValue);
     final PendingIntent launchIntent = PendingIntent.getActivity(context, requestID, myIntent,
-            FLAG_IMMUTABLE);
+            FLAG_MUTABLE);
     builder.setContentIntent(launchIntent);
   }
 
